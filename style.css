@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Protest Riot', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+    background-color: rgba(67, 78, 68, 0.575);
+    background-image: url(images/background.jpeg);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+body, html{
+    overflow-x: hidden ;
+}
+
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width:97%;
+    background-color: rgba(29, 36, 30, 0.575);
+}
+.header-content{margin-bottom:50px;
+    color:rgba(229, 184, 247, 0.836);
+    text-align: center;
+}
+.header-content h1{
+   font-size:77px;
+   color:rgb(218, 111, 99);
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.line{
+    width:150px;
+    height:4px;
+    background:rgb(105, 145, 190);
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.ctn{
+    text-align: center;
+    padding:8px 15px;
+    background:rgb(246, 146, 118);
+    border-radius: 30px;
+    color:rgb(37, 10, 10);
+}
+.center {
+    text-align: center;
+}
+.ctn:hover{
+    background: whitesmoke;
+    color: rgb(37, 25, 23);
+}
+section{ 
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.album{
+    text-align: center;
+    font-size: 4vmin;
+    color:rgb(243, 183, 150)
+}
+h2{
+    font-size:35px;
+    color:rgba(249, 125, 49, 0.886);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+footer{
+    width:100%;
+    min-height:200px;
+    padding: 20px 80px;
+    margin:0;
+    text-align:right;
+}
+.footer p{
+    color: whitesmoke;
+    margin: 20px auto;
+    padding: 20px auto;
+}
+
+p{
+    font-size: 20px;
+    color:white;
+}
+
+a{
+    color:rgb(111, 38, 107);
+    font-family: 'Times New Roman', Times, serif;
+}
+@media only screen and (max-width:850px){
+    .container{
+        padding:0;
+    }
+    .header-content h1{
+        font-size:20 px;
+    }
+    .row{
+        flex-direction:column;
+    }
+    .row.col{
+        margin: 20px auto;
+    }
+    .col imag{
+        max-width: 90%;
+    }
+    .row1{
+        flex-direction:column;
+    }
+    .row1.col1{
+        margin: 20px auto;
+    }
+    .col1 imag{
+        max-width: 90%;
+    }
+}
